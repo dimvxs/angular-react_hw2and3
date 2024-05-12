@@ -1,0 +1,35 @@
+div{
+    width: 230px;
+    height: 515px;
+    text-align: center;
+    border-right: 1px rgb(202, 202, 202) solid;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(71, 118, 185);
+}
+
+img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+#link{
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center; /* Выравнивание текста по вертикали */
+    justify-content: center; /* Выравнивание текста по горизонтали */
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
